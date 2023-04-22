@@ -1,0 +1,27 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+html {
+    cursor: url('images/cursor.png'), auto;
+}
+
+body {
+    font-family: 'Lusitana', sans-serif;
+}
+
+p {
+    font-family: 'Raleway', serif;
+}
+
+/*header section*/
+
+
+/*main section*/
+
+
+/*footer section*/
+
+
+/*media queries*/
