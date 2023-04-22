@@ -3,6 +3,8 @@ Rules :
 - Do not interact with someone else's files especially 
 when we're working at the same time because you can cause merge conflicts
 you can still view it though
+nathaniel: about.html about.css   meetUs.html meetUs.css
+marcus: donate.html donate.css
 
 - Be descriptive with your git commit message, if you just added css styling 
 during your session, just write that.
@@ -11,7 +13,8 @@ during your session, just write that.
 and tell others to git pull to pull your latest code.
 
 - try your best not to use divs, use semantic html, 9 times out of ten you can
-wrap an item with a <section> or <article> tag instead of div.
+wrap an item with a <section> or <article> tag instead of div. you can target
+an element using nth of child too, use can use divs if something is very nested
 
 - Not everything needs a class or an ID, if you're trying to target something in a
 container and you know it's the only elememt there just use css selectors
