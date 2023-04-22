@@ -91,3 +91,158 @@ p {
 
 
 /*media queries*/
+
+
+Nav html: 
+
+<header>
+        <nav>
+            <div>
+                <figure><img src="images/deforestation.png"></img></figure>
+                <h2>Deforestation</h2>
+            </div>
+            <input type="checkbox" id="check" />
+            <label for="check" class="burger-icon">
+                <img src="images/burger-bar.png"></img>
+            </label>
+            <ul>
+                <li id="home-underline"><a href="index.html">Home</a></li>
+                <li><a href="about.html">About</a></li>
+                <li><a href="donate.html">Donate</a></li>
+            </ul>
+        </nav>
+</header>
+
+nav css :
+
+* {
+    margin: 0;
+    padding: 0;
+}
+
+:root {
+    --nav-bg-color: #435944;
+    --beige-color: #CAB170;
+}
+
+html {
+    cursor: url('images/cursor.png'), auto;
+}
+
+body {
+    font-family: 'Lusitana', sans-serif;
+}
+
+p,
+a {
+    font-family: 'Raleway', serif;
+}
+
+/*header section*/
+
+header {
+    background-color: var(--nav-bg-color);
+    color: white;
+    padding: 1.4rem 1.6rem;
+    position: sticky;
+    top: 0;
+    font-size: 1.2rem;
+}
+
+nav {
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+}
+
+nav :nth-child(1) {
+    display: flex;
+    gap: 20px;
+    align-items: center;
+}
+
+nav div :nth-child(1) {
+    width: 45px;
+    height: 45px;
+}
+
+nav :nth-child(4) {
+    display: flex;
+    gap: 2rem;
+    list-style: none;
+    align-items: center;
+}
+
+#home-underline {
+    text-decoration: underline;
+}
+
+.burger-icon {
+    cursor: pointer;
+    display: none;
+}
+
+.burger-icon :nth-child(1) {
+    width: 40px;
+    height: 40px;
+}
+
+#check {
+    display: none;
+}
+
+a {
+    font-size: 1.06rem;
+    text-decoration: none;
+    color: white;
+    transition: color 0.4s ease;
+}
+
+a:hover {
+    color: var(--beige-color)
+}
+
+
+/*main section*/
+
+
+/*footer section*/
+
+
+/*media queries*/
+
+@media (min-width: 580px) {
+    #check:checked~ul {
+        display: flex;
+        gap: 2rem;
+    }
+}
+
+@media (max-width: 580px) {
+    header {
+        padding: 0.8rem 0.8rem;
+    }
+
+    nav :nth-child(4) {
+        display: none;
+        width: 100%;
+        padding: 1.3rem 0;
+    }
+
+
+    li {
+        text-align: center;
+    }
+    
+    #check:checked~ul {
+    display: flex;
+    flex-direction: column;
+    
+}
+
+
+    .burger-icon {
+        display: block;
+    }
+
+}
