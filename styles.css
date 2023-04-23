@@ -125,7 +125,7 @@ article {
 }
 
 .image2 {
-    width: 250px;
+    width: 270px;
     height: auto;
 }
 
@@ -152,9 +152,9 @@ footer {
     justify-content: center;
 }
 
-.footer-img{
-    width:50px;
-    height:50px;
+.footer-img {
+    width: 50px;
+    height: 50px;
 }
 
 /*media queries*/
