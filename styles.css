@@ -88,7 +88,7 @@ a:hover {
 
 /*main section*/
 
-main figure img {
+.image1 {
     width: 100%;
     height: 400px;
 }
@@ -107,9 +107,55 @@ main section div {
     max-width: 40%;
 }
 
+.brown-background {
+    background-color: #73513D;
+    margin: 3rem 0;
+    width: 100%;
+    height: 300px;
+    position: absolute;
+    z-index: -2;
+}
+
+article {
+    display: flex;
+    justify-content: space-between;
+    max-width: 80%;
+    text-align: center;
+    margin: 7rem auto;
+}
+
+.image2 {
+    width: 250px;
+    height: auto;
+}
+
+article div {
+    max-width: 60%;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    gap: 2rem;
+    padding-left: 20px;
+}
+
+#white {
+    color: white;
+}
 
 /*footer section*/
+footer {
+    width: auto;
+    height: 70px;
+    display: flex;
+    background-color: #435944;
+    align-items: center;
+    justify-content: center;
+}
 
+.footer-img{
+    width:50px;
+    height:50px;
+}
 
 /*media queries*/
 
@@ -147,25 +193,42 @@ main section div {
         display: block;
     }
 
-    main figure img {
+    .image1 {
         height: 300px;
     }
-    
+
     main section {
         flex-direction: column;
         align-items: center;
-        
+
     }
-    
+
     main section div {
-    max-width: 80%;
-}
+        max-width: 80%;
+    }
+
+    article {
+        flex-direction: column;
+        align-items: center;
+        gap: 2rem;
+    }
+
+    #white {
+        color: black;
+    }
+
+    article div {
+        gap: 1rem;
+    }
 
 }
 
 @media (max-width: 490px) {
-    main figure img {
+    .image1 {
         height: 200px;
     }
-}
 
+    footer {
+        padding: 20px;
+    }
+}
