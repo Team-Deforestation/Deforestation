@@ -107,6 +107,10 @@ main section div {
     max-width: 40%;
 }
 
+main section div h3 {
+    padding-bottom: 8px;
+}
+
 .brown-background {
     background-color: #73513D;
     margin: 3rem 0;
@@ -219,6 +223,8 @@ footer {
 
     article div {
         gap: 1rem;
+        padding-left: 0;
+        max-width: 80%;
     }
 
 }
