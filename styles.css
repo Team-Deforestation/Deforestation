@@ -98,7 +98,7 @@ main section {
     justify-content: space-evenly;
     max-width: 90%;
     margin: 0 auto;
-    padding-top: 1rem;
+    padding: 3.5rem 0;
     gap: 20px;
 }
 
@@ -140,6 +140,7 @@ article div {
     justify-content: space-around;
     gap: 2rem;
     padding-left: 20px;
+    font-size: 24px;
 }
 
 #white {
