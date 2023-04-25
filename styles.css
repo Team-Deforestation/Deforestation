@@ -6,6 +6,7 @@
 :root {
     --nav-bg-color: #435944;
     --beige-color: #CAB170;
+    --black: black;
 }
 
 html {
@@ -56,10 +57,6 @@ nav :nth-child(4) {
     align-items: center;
 }
 
-#home-underline {
-    text-decoration: underline;
-}
-
 .burger-icon {
     cursor: pointer;
     display: none;
@@ -82,7 +79,11 @@ a {
 }
 
 a:hover {
-    color: var(--beige-color)
+    color: var(--beige-color);
+}
+
+#home {
+    color: var(--beige-color);
 }
 
 
@@ -107,12 +108,17 @@ main section div {
     max-width: 40%;
 }
 
+main section div p {
+    font-size: 1.2rem;
+}
+
 main section div h3 {
     padding-bottom: 8px;
 }
 
 .brown-background {
-    background-color: #73513D;
+    background-color: var(--beige-color);
+    /*#73513D;*/
     margin: 3rem 0;
     width: 100%;
     height: 300px;
@@ -125,7 +131,7 @@ article {
     justify-content: space-between;
     max-width: 80%;
     text-align: center;
-    margin: 7rem auto;
+    margin: 7rem auto 3rem auto;
 }
 
 .image2 {
@@ -138,13 +144,20 @@ article div {
     display: flex;
     flex-direction: column;
     justify-content: space-around;
-    gap: 2rem;
-    padding-left: 20px;
-    font-size: 24px;
+    gap: 4rem;
+    padding-left: 15px;
+    font-size: 1.2rem;
+    padding-top: 70px;
 }
 
-#white {
-    color: white;
+.final-section {
+    display: flex;
+    justify-content: space-around;
+    padding: 2rem 0.8rem;
+}
+
+iframe {
+    width: 400px;
 }
 
 /*footer section*/
@@ -163,6 +176,17 @@ footer {
 }
 
 /*media queries*/
+
+@media (max-width: 760px) {
+    .hide-img {
+        display: none;
+    }
+    
+    iframe {
+        width: 80%;
+        height: 300px;
+    }
+}
 
 @media (min-width: 580px) {
     #check:checked~ul {
@@ -218,16 +242,12 @@ footer {
         gap: 2rem;
     }
 
-    #white {
-        color: black;
-    }
-
     article div {
-        gap: 1rem;
+        gap: 1.5rem;
         padding-left: 0;
         max-width: 80%;
+        padding-top: 0;
     }
-
 }
 
 @media (max-width: 490px) {
@@ -237,5 +257,9 @@ footer {
 
     footer {
         padding: 20px;
+    }
+    
+    iframe {
+        height: 200px;
     }
 }
