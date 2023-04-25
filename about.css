@@ -97,7 +97,13 @@ article {
     gap: 40px;
     align-items: center;
     justify-content: center;
-
+}
+.container{
+    display: flex;
+    flex-direction:row;
+    flex-wrap:wrap;
+    justify-content: center;
+    align-items: center;
 }
 
 img {
