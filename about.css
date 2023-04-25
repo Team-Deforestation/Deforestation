@@ -54,7 +54,7 @@ nav :nth-child(4) {
     align-items: center;
 }
 
-#home-underline {
+#about-underline {
     text-decoration: underline;
 }
 
@@ -207,7 +207,7 @@ footer{
 }
 
 /*media queries*/
-@media (max-width: 495px) {
+@media (max-width: 490px) {
   article {
     display: flex;
     flex-direction: column;
