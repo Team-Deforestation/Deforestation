@@ -57,10 +57,6 @@ nav :nth-child(4) {
     align-items: center;
 }
 
-#about-underline {
-    text-decoration: underline;
-}
-
 .burger-icon {
     cursor: pointer;
     display: none;
@@ -84,6 +80,10 @@ a {
 
 a:hover {
     color: var(--beige-color)
+}
+
+#about {
+    color: var(--beige-color);
 }
 
 /*main section*/
