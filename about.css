@@ -182,6 +182,7 @@ card:hover {
     opacity: 1;
     visibility: visible;
     filter: blur(0px);
+    font-weight: bold;
 }
 
 .container:hover img {
@@ -189,7 +190,33 @@ card:hover {
 }
 .brown{
     color: black;
-    font-weight: 5px;
+    font-size: 20px;
+    font-weight: bold;
+}
+.second-article{
+    height:400px;
+    width: auto;
+    background:white;
+}
+.second-article-sections{
+    display: flex;
+    height: 400px;
+    width:auto;
+}
+.black-header{
+    color: black;
+}
+.second-article-pictures{
+    height: 400px;
+    width: auto;
+}
+.second-first-article{
+    display:flex;
+    flex-direction:column;
+    justify-content:center;
+    text-align: center;
+    width: 800px;
+    padding:10px;
 }
 
 /*.HowWeCanHelp{*/
@@ -235,7 +262,6 @@ footer {
         flex-direction: column;
         align-items: center;
     }
-
     footer {
         padding: 20px;
     }
