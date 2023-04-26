@@ -148,6 +148,10 @@ article div {
     padding-top: 70px;
 }
 
+.link {
+    color: purple;
+}
+
 .final-section {
     display: flex;
     justify-content: space-around;
