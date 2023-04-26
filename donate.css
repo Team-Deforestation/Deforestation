@@ -31,6 +31,19 @@
      top: 0;
      font-size: 1.2rem;
  }
+ 
+.lot {
+    color: purple;
+    font-size: 25px;
+}
+
+
+.cla {
+    padding: 23px 8px 20px 30px;
+    margin: auto;
+    text-align: center;
+    list-style-type: none;
+}
 
  nav {
      display: flex;
@@ -81,8 +94,10 @@
      color: var(--beige-color)
  }
 
- #donate {
+ .donate {
      color: var(--beige-color);
+    padding: 20px 10px 40px 10px;
+    text-align: center;
  }
 
 
