@@ -2,7 +2,6 @@
     margin: 0;
     padding: 0;
 }
-
 :root {
     --nav-bg-color: #435944;
     --beige-color: #CAB170;
@@ -14,11 +13,10 @@ html {
 
 body {
     font-family: 'Lusitana', sans-serif;
-
+    
 }
 
-p,
-a {
+p,a {
     font-family: 'Raleway', serif;
 }
 
@@ -87,46 +85,32 @@ a:hover {
 
 
 /*main section*/
-main {
+main{
     background-color: #CAB170;
     height: auto;
 }
 
-.image-right {
-    width: 300px;
-    height: 300px;
+.image-right{
+    width:300px;
+    height:300px;
     padding-right: 30px;
-
+    
 }
 
-section {
+section{
     display: flex;
-    padding: 20px;
+    padding:20px;
     max-width: 1100px;
     margin: auto;
-    font-size: 30px;
+    font-size:30px;
     color: #5E2F04;
     justify-content: center;
     align-items: center;
 }
-
-.image-left {
+.image-left{
     padding-left: 30px;
-    width: 300px;
-    height: 300px;
-}
-
-section a {
-    font-size: 30px;
-    color: purple;
-}
-
-section a:hover {
-    color: purple;
-}
-
-.item {
-    display: flex;
+    width:300px;
+    height:300px;
 }
 
 
@@ -142,17 +126,15 @@ section a:hover {
 
 /*media queries*/
 @media (max-width: 495px) {
-    article {
-        display: flex;
-        flex-direction: column;
-        align-items: center;
-    }
-
-    body {
-        height: auto;
-    }
+  article {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+  body{
+      height: auto;
+  }
 }
-
 @media (min-width: 580px) {
     #check:checked~ul {
         display: flex;
@@ -175,22 +157,16 @@ section a:hover {
     li {
         text-align: center;
     }
-
+    
     #check:checked~ul {
-        display: flex;
-        flex-direction: column;
-
-    }
+    display: flex;
+    flex-direction: column;
+    
+}
 
 
     .burger-icon {
         display: block;
     }
-    .item {
-        flex-direction: column;
-    }
-    
-    .image-left {
-        order: -1;
-    }
+
 }

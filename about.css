@@ -188,7 +188,8 @@ card:hover {
     filter: blur(3px);
 }
 .brown{
-    color: #CAB170;
+    color: black;
+    font-weight: 5px;
 }
 
 /*.HowWeCanHelp{*/
