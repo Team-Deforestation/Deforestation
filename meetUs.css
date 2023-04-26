@@ -113,6 +113,13 @@ section{
     height:300px;
 }
 
+.icons {
+    height: 32px;
+    width: 32px;
+    padding-left: 10px;
+    padding-top: 10px;
+}
+
 
 /*footer section*/
 /*footer{*/
