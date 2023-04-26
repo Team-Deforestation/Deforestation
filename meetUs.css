@@ -56,10 +56,6 @@ nav :nth-child(4) {
     align-items: center;
 }
 
-#home-underline {
-    text-decoration: underline;
-}
-
 .burger-icon {
     cursor: pointer;
     display: none;
