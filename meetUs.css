@@ -125,6 +125,13 @@ section a:hover {
     display: flex;
 }
 
+.icons {
+    height: 32px;
+    width: 32px;
+    padding-left: 10px;
+    padding-top: 10px;
+}
+
 
 /*footer section*/
 /*footer{*/
