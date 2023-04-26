@@ -194,13 +194,11 @@ card:hover {
     font-weight: bold;
 }
 .second-article{
-    height:400px;
     width: auto;
     background:white;
 }
 .second-article-sections{
     display: flex;
-    height: 400px;
     width:auto;
 }
 .black-header{
@@ -208,14 +206,14 @@ card:hover {
 }
 .second-article-pictures{
     height: 400px;
-    width: auto;
+    width: 80%;
 }
 .second-first-article{
     display:flex;
     flex-direction:column;
     justify-content:center;
     text-align: center;
-    width: 800px;
+    width: 80%;
     padding:10px;
 }
 
@@ -301,4 +299,11 @@ footer {
         display: block;
     }
 
+}
+
+@media (max-width: 850px) {
+    .second-article-sections {
+        flex-direction: column;
+        align-items: center;
+    }
 }
