@@ -1,4 +1,4 @@
-##Deforestation
+Deforestation
 
 This project was built on HTML and CSS
 
